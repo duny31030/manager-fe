@@ -8,9 +8,9 @@ export default {
   login(params) {
     return request({
       method: 'post',
-      url: '/user/login',
+      url: '/users/login',
       data: params,
-      mock: true
+      mock: false
     })
   }
 }
